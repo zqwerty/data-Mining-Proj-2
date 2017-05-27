@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Paid Notice: Deaths   GARDNER, ANDREW</title>
+    <meta content="dn110106" name="slug"/>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="11" name="publication_month"/>
+    <meta content="2006" name="publication_year"/>
+    <meta content="Wednesday" name="publication_day_of_week"/>
+    <meta content="Classified" name="dsk"/>
+    <meta content="10" name="print_page_number"/>
+    <meta content="B" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Paid Death Notices" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1801271"/>
+      <doc.copyright holder="The New York Times" year="2006"/>
+      <identified-content>
+        <person class="indexing_service">GARDNER, ANDREW</person>
+        <classifier class="online_producer" type="types_of_material">Paid Death Notice</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Paid Death Notices</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20061101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9A02EED8123AF932A35752C1A9609C8B63" item-length="92" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Paid Notice: Deaths   GARDNER, ANDREW</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>GARDNER--Andrew. We join Kim, Jake, Kyle and Juliette in mourning the passing of our dear friend Andrew. Words cannot express the sorrow that we feel for ourselves and the family from this tragic loss. As a close friend and a roommate, we will honor and cherish the fond memories of Andrew, his humor, singing, previous joy of life, true friendship, sage counsel, uncanny recall of movie dialogue we will recall with wistful joy, and will pray that his soul has found lasting peace. Greg and Liz Maidman David and Stephanie Wolkoff</p>
+      </block>
+      <block class="full_text">
+        <p>GARDNER--Andrew. We join Kim, Jake, Kyle and Juliette in mourning the passing of our dear friend Andrew. Words cannot express the sorrow that we feel for ourselves and the family from this tragic loss. As a close friend and a roommate, we will honor and cherish the fond memories of Andrew, his humor, singing, previous joy of life, true friendship, sage counsel, uncanny recall of movie dialogue we will recall with wistful joy, and will pray that his soul has found lasting peace. Greg and Liz Maidman David and Stephanie Wolkoff</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

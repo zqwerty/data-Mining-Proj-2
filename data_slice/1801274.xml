@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Paid Notice: Deaths  HORNCASTLE, RAYMOND C.</title>
+    <meta content="dn110106" name="slug"/>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="11" name="publication_month"/>
+    <meta content="2006" name="publication_year"/>
+    <meta content="Wednesday" name="publication_day_of_week"/>
+    <meta content="Classified" name="dsk"/>
+    <meta content="10" name="print_page_number"/>
+    <meta content="B" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Paid Death Notices" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1801274"/>
+      <doc.copyright holder="The New York Times" year="2006"/>
+      <identified-content>
+        <person class="indexing_service">HORNCASTLE, RAYMOND C.</person>
+        <classifier class="online_producer" type="types_of_material">Paid Death Notice</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Paid Death Notices</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20061101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9E05E7D7123AF932A35752C1A9609C8B63" item-length="87" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Paid Notice: Deaths  HORNCASTLE, RAYMOND C.</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>HORNCASTLE--Raymond C., of Raleigh, NC, formerly of Scarsdale, NY, died peacefully at home on October 28th after a brief illness. He is survived by his wife of 43 years, Nancy; his sons, Court and Mark and his wife, Lorena; beloved grandchildren, Brian and Mallory; sisters, Mary Jane Fitzpatrick and Judith DiMenna. He was a graduate of Archbishop Stepinac High School, College of the Holy Cross and New York University. Memorial contributions may be sent to Duke University Medical Center-Liver Transplant Office, PO Box 3876, Durham, NC 27710.</p>
+      </block>
+      <block class="full_text">
+        <p>HORNCASTLE--Raymond C., of Raleigh, NC, formerly of Scarsdale, NY, died peacefully at home on October 28th after a brief illness. He is survived by his wife of 43 years, Nancy; his sons, Court and Mark and his wife, Lorena; beloved grandchildren, Brian and Mallory; sisters, Mary Jane Fitzpatrick and Judith DiMenna. He was a graduate of Archbishop Stepinac High School, College of the Holy Cross and New York University. Memorial contributions may be sent to Duke University Medical Center-Liver Transplant Office, PO Box 3876, Durham, NC 27710.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

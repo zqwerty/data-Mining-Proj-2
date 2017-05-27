@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Paid Notice: Deaths   GLUCK, SOPHIE</title>
+    <meta content="dn110106" name="slug"/>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="11" name="publication_month"/>
+    <meta content="2006" name="publication_year"/>
+    <meta content="Wednesday" name="publication_day_of_week"/>
+    <meta content="Classified" name="dsk"/>
+    <meta content="10" name="print_page_number"/>
+    <meta content="B" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Paid Death Notices" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1801272"/>
+      <doc.copyright holder="The New York Times" year="2006"/>
+      <identified-content>
+        <person class="indexing_service">GLUCK, SOPHIE</person>
+        <classifier class="online_producer" type="types_of_material">Paid Death Notice</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Paid Death Notices</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20061101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=940DEED8123AF932A35752C1A9609C8B63" item-length="59" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Paid Notice: Deaths   GLUCK, SOPHIE</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>GLUCK--Sophie, died October 30, 2006 at age 93. Lawyer, judge. Beloved wife of Adolph and cherished sister and mother. She is survived by her son Matthew, daughterin-law Peggy, daughter Lucille, grandchildren David, Lori, Jeffrey and Carina, and great-grandchildren Andrew, Ari, Riley, Roxanne and Benjamin. Graveside services 1pm October 31st at Mount Ararat Cemetery. She will be greatly missed.</p>
+      </block>
+      <block class="full_text">
+        <p>GLUCK--Sophie, died October 30, 2006 at age 93. Lawyer, judge. Beloved wife of Adolph and cherished sister and mother. She is survived by her son Matthew, daughterin-law Peggy, daughter Lucille, grandchildren David, Lori, Jeffrey and Carina, and great-grandchildren Andrew, Ari, Riley, Roxanne and Benjamin. Graveside services 1pm October 31st at Mount Ararat Cemetery. She will be greatly missed.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

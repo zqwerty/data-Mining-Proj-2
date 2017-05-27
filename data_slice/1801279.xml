@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Paid Notice: Deaths   LUCEK, RICHARD CHARLES</title>
+    <meta content="dn110106" name="slug"/>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="11" name="publication_month"/>
+    <meta content="2006" name="publication_year"/>
+    <meta content="Wednesday" name="publication_day_of_week"/>
+    <meta content="Classified" name="dsk"/>
+    <meta content="10" name="print_page_number"/>
+    <meta content="B" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Paid Death Notices" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1801279"/>
+      <doc.copyright holder="The New York Times" year="2006"/>
+      <identified-content>
+        <person class="indexing_service">LUCEK, RICHARD CHARLES</person>
+        <classifier class="online_producer" type="types_of_material">Paid Death Notice</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Paid Death Notices</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20061101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9D00E7D7123AF932A35752C1A9609C8B63" item-length="111" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Paid Notice: Deaths   LUCEK, RICHARD CHARLES</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LUCEK--Richard Charles, age 71, born on March 27, 1935 and passed away on October 28, 2006. An RPI '57 graduate, Richard was a professional engineer. After retirement he served his community by joining both the Scarsdale Volunteer Ambulance Corps. and Volunteer Fire Company 3. He was an active member of the St. Pius X Parish, most visibly as a lector during the Sunday noon Mass. He is survived by his wife, Audrey, and son Paul Richard Lucek. His wake will be held 2-4pm and 7-9pm on Thursday at Bennett Funeral Home in Scarsdale and his funeral Mass will be held at St. Pius X Church, Friday, 10am, in Scarsdale, NY.</p>
+      </block>
+      <block class="full_text">
+        <p>LUCEK--Richard Charles, age 71, born on March 27, 1935 and passed away on October 28, 2006. An RPI '57 graduate, Richard was a professional engineer. After retirement he served his community by joining both the Scarsdale Volunteer Ambulance Corps. and Volunteer Fire Company 3. He was an active member of the St. Pius X Parish, most visibly as a lector during the Sunday noon Mass. He is survived by his wife, Audrey, and son Paul Richard Lucek. His wake will be held 2-4pm and 7-9pm on Thursday at Bennett Funeral Home in Scarsdale and his funeral Mass will be held at St. Pius X Church, Friday, 10am, in Scarsdale, NY.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>
