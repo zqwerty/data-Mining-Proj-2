@@ -69,8 +69,8 @@ def readXML(folder='../data_slice'):
     return docs
 
 if __name__ == '__main__':
-    # ds = readXML('../../DM_Proj2/samples_50000')
-    # pickle.dump(ds,open('../data_slice/data.p','wb'))
+    ds = readXML()
+    pickle.dump(ds,open('../data_slice/data.p','wb'))
     dds = pickle.load(open('../data_slice/data.p'))
     print len(dds)
     print dds[:10]
