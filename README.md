@@ -52,4 +52,4 @@ zqwerty & llylly
 
   呢个函数嘅时间空间需求都较大，谨慎运行喇
 
-  ~ 588s & 10G for 50000 passages
+  ~ 118s & 10G for 50000 passages

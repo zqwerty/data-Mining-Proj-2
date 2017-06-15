@@ -292,7 +292,7 @@ def genTfIdfVecs(bagPath = '../data_bagvec', dictPath = '../data_dict/wordList.p
     :param fold: Evenly divide the document set to # folds for cross-validation
     :return: None
     savePath + 'label#.p' - [[no, [categories]], [no, [categories]], ...]
-    savePath + 'vec#.npy' - [no, tf-idf0, tf-idf1, ...; no, tf-idf0, tf-idf1, ...;] (a numpy matrix, each line is a document)
+    savePath + 'vec#.npy' - data:[tf-idf0, tf-idf1, ...; tf-idf0, tf-idf1, ...;] (a numpy matrix, each line is a document) no:[doc-id0, doc-id1, ...]
     """
 
     if not os.path.exists(savePath):
@@ -320,18 +320,20 @@ def genTfIdfVecs(bagPath = '../data_bagvec', dictPath = '../data_dict/wordList.p
         stNo = i * foldN
         nowf = allf[stNo:stNo+foldN]
         categoryList = []
-        mat = np.zeros((len(nowf),len(wordList) + 1), float)
+        mat = np.zeros((len(nowf),len(wordList)), float)
+        noMat = np.zeros((len(nowf)), int)
         for f in nowf:
             no, category, vec = genTfIdfVec(len(allf), wordList, wordIndex, pickle.load(open(os.path.join(bagPath, f))))
             categoryList.append([no, category])
-            mat[cnt,:] = vec
+            mat[cnt, :] = vec
+            noMat[cnt] = no
             cnt = cnt + 1
             if (cnt % 10 == 0):
                 print cnt
         categoryPath = "label%d.p" % (i)
-        vecPath = "vec%d.npy" % (i)
+        vecPath = "vec%d.npz" % (i)
         pickle.dump(categoryList, open(os.path.join(savePath, categoryPath), 'wb'))
-        np.savez(open(os.path.join(savePath, vecPath), 'wb'), mat)
+        np.savez(open(os.path.join(savePath, vecPath), 'wb'), data = mat, no = noMat)
 
 
 def genTfIdfVec(totDoc, wordList, wordIndex, wordBag):
@@ -355,11 +357,13 @@ def genTfIdfVec(totDoc, wordList, wordIndex, wordBag):
             tf = float(t) / float(totWord)
             idf = math.log(float(totDoc) / float(wordList[ind][1]))
             arr[ind] = tf * idf
-    arr = np.hstack((np.array([no]), arr))
     return no, category, arr
 
-
-if __name__ == '__main__':
+def preprocess():
+    """
+        Preprocess summary func
+    :return: None
+    """
     # parse XML -> pickle
     '''
     t0 = time.clock()
@@ -374,7 +378,8 @@ if __name__ == '__main__':
     # extract categories
     '''
     t2 = time.clock()
-    extractCategories()
+    selected, allMap = extractCategories(freqThreshold=500)
+    print "Tot category: %d" % (len(selected))
     t3 = time.clock()
     print "Extract categories seconds: %f" % (t3 - t2)
     '''
