@@ -53,3 +53,31 @@ zqwerty & llylly
   呢个函数嘅时间空间需求都较大，谨慎运行喇
 
   ~ 118s & 10G for 50000 passages
+
+#### Classifier
+
++ `src/classifier.py:dimensionReduce(testSetNo, foldN, dimension, path, savePath)`
+
+  降维嘅函数，降维后才可以在呢D唔可增量学习嘅分类器上使
+
+  需要好大嘅时间空间占用，谨慎运行喇
+
+  to 100 compontner for 5000 passages: ~3725s & 100M
+
++ `src/classifier.py:classify(classifier, category, testSetNo, foldN, path, incremental)`
+
+  通用于sklearn分类器嘅分类函数，分类先，跟住计算呢D要求嘅评价参数
+
+  具体用法见`__main__`喇
+
+TODO:
+
++ 基于xgboost嘅Gradiant Boost分类方法
+
+
++ 聚类
++ 聚类结果嘅可视化
++ 跑实验
++ 报告
+
+啊再做紧呢个系统结构要掛科嘅，唔做喇唔做喇（6.16）
