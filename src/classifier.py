@@ -77,14 +77,14 @@ def dimensionReduce(testSetNo, foldN, dimension, path = '../data_tfidf', savePat
     return tt-st
 
 
-l:
+def classify(classifier, category, testSetNo, foldN, path='../data_tfidf', incremental=True):
     """
 
     :param classifier: the sklearn classifier object
     :param category: category name to be classified
     :param testSetNo: No. of test set
     :param foldN: # of folds
-    :param path: path of labels and matrix
+    :param path: path of labels and matrixxs
     :param incremental: whether to use incremental interface
     :return: precision, recall, f1-measure and used time(in seconds)
     For non-incremental classifiers, directly using original Tf-Idf can result in memory BOOM, so you should use reduced datasets
