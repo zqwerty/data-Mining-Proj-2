@@ -1,1 +1,11 @@
 data.p
+.idea/*
+data_bagvec/*
+data_category/*
+data_dict/*
+data_pickle/*
+data_slice/*
+data_tfidf/*
+data_tfidf_reduce/*
+samples_50000/*
+
