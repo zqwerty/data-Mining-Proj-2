@@ -8,5 +8,6 @@ data_pickle/*
 data_slice/*
 data_tfidf/*
 data_tfidf_reduce/*
+data_tfidf_reduce2/*
 samples_50000/*
 

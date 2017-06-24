@@ -368,47 +368,47 @@ def preprocess():
     :return: None
     """
     # parse XML -> pickle
-    '''
+
     t0 = time.clock()
     print "# of parsed docs: %d" % (readXMLs('../samples_50000'))
     t1 = time.clock()
     print "Parsing seconds: %f" % (t1 - t0)
-    '''
+
     # random print some pickles
-    '''
+
     printXMLs()
-    '''
+
     # extract categories
-    '''
+
     t2 = time.clock()
     selected, allMap = extractCategories(freqThreshold=500)
     print "Tot category: %d" % (len(selected))
     t3 = time.clock()
     print "Extract categories seconds: %f" % (t3 - t2)
-    '''
-    '''
+
+
     # transform pickles to wordbag maps
     t4 = time.clock()
     extractWordBagVector()
     t5 = time.clock()
     print 'Extract wordBag vector seconds: %f' % (t5 - t4)
-    '''
-    '''
+
+
     # print wordbags
     printWordBags(num = 100)
-    '''
-    '''
+
+
     # retrieve dictionary
     t6 = time.clock()
     wordList = getWordDict(threshold = 10)
     t7 = time.clock()
     print 'Extract word dictionary seconds: %f' % (t7 - t6)
-    '''
-    '''
+
+
     # generate tf-idf vector
     t8 = time.clock()
     genTfIdfVecs()
     t9 = time.clock()
     print 'Generate Tf-Idf vector seconds: %f' % (t9 - t8)
-    '''
+
 
