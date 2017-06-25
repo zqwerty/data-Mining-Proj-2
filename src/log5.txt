@@ -1,0 +1,184 @@
+['washington', 'books', 'education', 'technology', 'arts', 'travel', 'sports', 'dining', 'new york', 'health', 'business', 'u.s.', 'style', 'obituaries', 'front page', 'world', 'theater', 'paid death notices', 'science', 'region', 'movies', 'magazine', 'real estate', 'corrections', 'opinion', 'wine']
+Adaboost (Basic estimator: Decision Tree)
+             precision    recall  f1-score   support
+
+          0       0.61      0.43      0.50       264
+          1       0.76      0.58      0.65       187
+          2       0.62      0.52      0.56       128
+          3       0.70      0.32      0.44       213
+          4       0.74      0.71      0.73       705
+          5       0.70      0.46      0.55        85
+          6       0.91      0.88      0.90       392
+          7       0.59      0.49      0.54        65
+          8       0.73      0.52      0.61      1064
+          9       0.67      0.58      0.62       213
+         10       0.78      0.70      0.74       508
+         11       0.62      0.19      0.29       347
+         12       0.67      0.41      0.51       235
+         13       0.40      0.40      0.40        42
+         14       0.53      0.07      0.12       129
+         15       0.67      0.59      0.63       348
+         16       0.63      0.33      0.44       102
+         17       0.99      0.98      0.98       614
+         18       0.50      0.20      0.29        65
+         19       0.73      0.52      0.61      1064
+         20       0.57      0.40      0.47       181
+         21       0.67      0.07      0.13       108
+         22       0.55      0.44      0.49        64
+         23       0.96      0.97      0.97       254
+         24       0.62      0.30      0.40       495
+         25       0.59      0.49      0.54        65
+
+avg / total       0.73      0.56      0.62      7937
+
+train time: 826.910143
+time: 826.910143
+Random Forest
+             precision    recall  f1-score   support
+
+          0       0.80      0.40      0.53       264
+          1       0.94      0.45      0.61       187
+          2       0.89      0.45      0.60       128
+          3       0.81      0.27      0.41       213
+          4       0.86      0.72      0.78       705
+          5       0.82      0.16      0.27        85
+          6       0.94      0.85      0.89       392
+          7       0.70      0.25      0.36        65
+          8       0.85      0.61      0.71      1064
+          9       0.83      0.52      0.64       213
+         10       0.87      0.61      0.72       508
+         11       0.66      0.19      0.30       347
+         12       0.86      0.37      0.51       235
+         13       1.00      0.24      0.38        42
+         14       0.50      0.02      0.04       129
+         15       0.83      0.53      0.64       348
+         16       0.85      0.11      0.19       102
+         17       0.99      0.98      0.98       614
+         18       0.71      0.08      0.14        65
+         19       0.84      0.60      0.70      1064
+         20       0.76      0.32      0.45       181
+         21       1.00      0.02      0.04       108
+         22       0.91      0.33      0.48        64
+         23       0.96      0.94      0.95       254
+         24       0.82      0.25      0.38       495
+         25       0.77      0.37      0.50        65
+
+avg / total       0.85      0.54      0.64      7937
+
+train time: 92.338778
+time: 92.338778
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.582670
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.600546
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.595152
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.580484
+Precision: 0.753191 Recall: 0.502128 F1-measure: 0.602553 time: 1.594356
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.622229
+Precision: 0.870968 Recall: 0.688776 F1-measure: 0.769231 time: 1.593314
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.603712
+Precision: 0.696203 Recall: 0.361842 F1-measure: 0.476190 time: 1.606353
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.587167
+Precision: 0.775439 Recall: 0.435039 F1-measure: 0.557377 time: 1.600828
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.600019
+Precision: 0.866667 Recall: 0.221277 F1-measure: 0.352542 time: 1.594560
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.594355
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.598946
+Precision: 0.653266 Recall: 0.373563 F1-measure: 0.475320 time: 1.572206
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.576391
+Precision: 0.970443 Recall: 0.962541 F1-measure: 0.966476 time: 1.584612
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.581504
+Precision: 0.696203 Recall: 0.361842 F1-measure: 0.476190 time: 1.588022
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.609770
+Precision: 1.000000 Recall: 0.009259 F1-measure: 0.018349 time: 1.574317
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.595164
+Precision: 0.966527 Recall: 0.909449 F1-measure: 0.937120 time: 1.599581
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.580924
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 1.584161
+
+Precision: 0.617978 Recall: 0.416667 F1-measure: 0.497738 time: 3.299692
+Precision: 0.724638 Recall: 0.534759 F1-measure: 0.615385 time: 3.214952
+Precision: 0.731183 Recall: 0.531250 F1-measure: 0.615385 time: 3.228069
+Precision: 0.739130 Recall: 0.319249 F1-measure: 0.445902 time: 3.179207
+Precision: 0.753799 Recall: 0.703546 F1-measure: 0.727806 time: 3.273578
+Precision: 0.709677 Recall: 0.258824 F1-measure: 0.379310 time: 3.246855
+Precision: 0.890625 Recall: 0.872449 F1-measure: 0.881443 time: 3.304995
+Precision: 0.577778 Recall: 0.400000 F1-measure: 0.472727 time: 3.293868
+Precision: 0.737188 Recall: 0.527256 F1-measure: 0.614795 time: 3.130291
+Precision: 0.670520 Recall: 0.544601 F1-measure: 0.601036 time: 3.246120
+Precision: 0.795724 Recall: 0.659449 F1-measure: 0.721206 time: 3.274021
+Precision: 0.582418 Recall: 0.152738 F1-measure: 0.242009 time: 3.329700
+Precision: 0.694215 Recall: 0.357447 F1-measure: 0.471910 time: 3.384175
+Precision: 0.571429 Recall: 0.190476 F1-measure: 0.285714 time: 3.150944
+Precision: 0.684211 Recall: 0.100775 F1-measure: 0.175676 time: 3.133948
+Precision: 0.676580 Recall: 0.522989 F1-measure: 0.589951 time: 3.165563
+Precision: 0.742857 Recall: 0.254902 F1-measure: 0.379562 time: 3.469384
+Precision: 0.990148 Recall: 0.982085 F1-measure: 0.986100 time: 3.281189
+Precision: 0.636364 Recall: 0.107692 F1-measure: 0.184211 time: 3.312689
+Precision: 0.737188 Recall: 0.527256 F1-measure: 0.614795 time: 3.216075
+Precision: 0.612069 Recall: 0.392265 F1-measure: 0.478114 time: 3.407778
+Precision: 0.428571 Recall: 0.027778 F1-measure: 0.052174 time: 3.322815
+Precision: 0.621622 Recall: 0.359375 F1-measure: 0.455446 time: 3.220907
+Precision: 0.960630 Recall: 0.960630 F1-measure: 0.960630 time: 3.313667
+Precision: 0.635762 Recall: 0.193939 F1-measure: 0.297214 time: 3.449651
+Precision: 0.577778 Recall: 0.400000 F1-measure: 0.472727 time: 3.423386
+
+/Users/zhuqi/.virtualenvs/nlp/bin/python /Users/zhuqi/Desktop/大三下/DM/proj/data-Mining-Proj-2/src/classifier.py
+['washington', 'books', 'education', 'technology', 'arts', 'travel', 'sports', 'dining', 'new york', 'health', 'business', 'u.s.', 'style', 'obituaries', 'front page', 'world', 'theater', 'paid death notices', 'science', 'region', 'movies', 'magazine', 'real estate', 'corrections', 'opinion', 'wine']
+Precision: 0.65 Recall: 0.46 F1-measure: 0.54
+Precision: 0.81 Recall: 0.59 F1-measure: 0.68
+Precision: 0.72 Recall: 0.60 F1-measure: 0.66
+Precision: 0.69 Recall: 0.35 F1-measure: 0.46
+Precision: 0.77 Recall: 0.72 F1-measure: 0.75
+Precision: 0.73 Recall: 0.39 F1-measure: 0.51
+Precision: 0.90 Recall: 0.88 F1-measure: 0.89
+Precision: 0.56 Recall: 0.38 F1-measure: 0.45
+Precision: 0.74 Recall: 0.57 F1-measure: 0.64
+Precision: 0.67 Recall: 0.56 F1-measure: 0.61
+Precision: 0.79 Recall: 0.70 F1-measure: 0.74
+Precision: 0.62 Recall: 0.22 F1-measure: 0.32
+Precision: 0.71 Recall: 0.45 F1-measure: 0.55
+Precision: 0.71 Recall: 0.29 F1-measure: 0.41
+Precision: 0.58 Recall: 0.09 F1-measure: 0.15
+Precision: 0.72 Recall: 0.60 F1-measure: 0.66
+Precision: 0.74 Recall: 0.36 F1-measure: 0.49
+Precision: 0.99 Recall: 0.98 F1-measure: 0.99
+Precision: 0.50 Recall: 0.17 F1-measure: 0.25
+Precision: 0.74 Recall: 0.57 F1-measure: 0.64
+Precision: 0.68 Recall: 0.47 F1-measure: 0.56
+Precision: 0.71 Recall: 0.05 F1-measure: 0.09
+Precision: 0.72 Recall: 0.41 F1-measure: 0.52
+Precision: 0.97 Recall: 0.97 F1-measure: 0.97
+Precision: 0.68 Recall: 0.34 F1-measure: 0.46
+Precision: 0.56 Recall: 0.38 F1-measure: 0.45
+avg / total: Precision: 0.72 Recall: 0.48 F1-measure: 0.55
+train time: 137.860466
+
+/Users/zhuqi/.virtualenvs/nlp/bin/python /Users/zhuqi/Desktop/大三下/DM/proj/data-Mining-Proj-2/src/classifier.py
+['washington', 'books', 'education', 'technology', 'arts', 'travel', 'sports', 'dining', 'new york', 'health', 'business', 'u.s.', 'style', 'obituaries', 'front page', 'world', 'theater', 'paid death notices', 'science', 'region', 'movies', 'magazine', 'real estate', 'corrections', 'opinion', 'wine']
+Precision: 0.56 Recall: 0.45 F1-measure: 0.50
+Precision: 0.80 Recall: 0.60 F1-measure: 0.69
+Precision: 0.71 Recall: 0.55 F1-measure: 0.62
+Precision: 0.58 Recall: 0.38 F1-measure: 0.46
+Precision: 0.80 Recall: 0.75 F1-measure: 0.78
+Precision: 0.66 Recall: 0.46 F1-measure: 0.54
+Precision: 0.92 Recall: 0.90 F1-measure: 0.91
+Precision: 0.63 Recall: 0.40 F1-measure: 0.49
+Precision: 0.74 Recall: 0.66 F1-measure: 0.70
+Precision: 0.72 Recall: 0.62 F1-measure: 0.67
+Precision: 0.79 Recall: 0.71 F1-measure: 0.75
+Precision: 0.50 Recall: 0.36 F1-measure: 0.42
+Precision: 0.74 Recall: 0.57 F1-measure: 0.64
+Precision: 0.71 Recall: 0.48 F1-measure: 0.57
+Precision: 0.43 Recall: 0.22 F1-measure: 0.30
+Precision: 0.79 Recall: 0.67 F1-measure: 0.72
+Precision: 0.76 Recall: 0.44 F1-measure: 0.56
+Precision: 0.99 Recall: 0.99 F1-measure: 0.99
+Precision: 0.47 Recall: 0.25 F1-measure: 0.32
+Precision: 0.74 Recall: 0.66 F1-measure: 0.70
+Precision: 0.59 Recall: 0.45 F1-measure: 0.51
+Precision: 0.31 Recall: 0.14 F1-measure: 0.19
+Precision: 0.78 Recall: 0.44 F1-measure: 0.56
+Precision: 0.95 Recall: 0.95 F1-measure: 0.95
+Precision: 0.63 Recall: 0.47 F1-measure: 0.54
+Precision: 0.63 Recall: 0.40 F1-measure: 0.49
+avg / total: Precision: 0.69 Recall: 0.54 F1-measure: 0.60
+train time: 371.301628

@@ -102,3 +102,344 @@ SVM(SVC)
 avg / total       0.11      0.04      0.05      7937
 
 time: 951.802887
+
+MLP
+             precision    recall  f1-score   support
+
+          0       0.72      0.46      0.56       264
+          1       0.84      0.63      0.72       187
+          2       0.73      0.65      0.69       128
+          3       0.72      0.40      0.52       213
+          4       0.80      0.81      0.81       705
+          5       0.71      0.46      0.56        85
+          6       0.91      0.93      0.92       392
+          7       0.57      0.31      0.40        65
+          8       0.82      0.64      0.72      1064
+          9       0.75      0.61      0.67       213
+         10       0.83      0.75      0.79       508
+         11       0.68      0.28      0.40       347
+         12       0.83      0.49      0.62       235
+         13       0.78      0.67      0.72        42
+         14       0.75      0.09      0.17       129
+         15       0.79      0.72      0.76       348
+         16       0.86      0.54      0.66       102
+         17       0.99      0.98      0.98       614
+         18       0.00      0.00      0.00        65
+         19       0.81      0.67      0.73      1064
+         20       0.72      0.50      0.59       181
+         21       0.83      0.05      0.09       108
+         22       0.83      0.38      0.52        64
+         23       0.96      0.96      0.96       254
+         24       0.78      0.46      0.58       495
+         25       0.58      0.29      0.39        65
+
+avg / total       0.81      0.64      0.70      7937
+
+time: 1370.754433
+
+Logistic Regression(std)
+             precision    recall  f1-score   support
+
+          0       0.61      0.31      0.41       264
+          1       0.80      0.25      0.38       187
+          2       0.73      0.35      0.47       128
+          3       0.76      0.24      0.36       213
+          4       0.78      0.62      0.69       705
+/Users/zhuqi/.virtualenvs/nlp/lib/python2.7/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+          5       0.25      0.01      0.02        85
+          6       0.90      0.81      0.85       392
+  'precision', 'predicted', average, warn_for)
+          7       0.62      0.28      0.38        65
+          8       0.75      0.42      0.54      1064
+          9       0.75      0.39      0.52       213
+         10       0.81      0.63      0.70       508
+         11       0.57      0.11      0.19       347
+         12       0.80      0.37      0.51       235
+         13       0.00      0.00      0.00        42
+         14       0.00      0.00      0.00       129
+         15       0.75      0.55      0.63       348
+         16       0.46      0.06      0.10       102
+         17       0.99      0.98      0.98       614
+         18       0.00      0.00      0.00        65
+         19       0.75      0.42      0.54      1064
+         20       0.44      0.11      0.18       181
+         21       0.50      0.02      0.04       108
+         22       0.47      0.11      0.18        64
+         23       0.96      0.96      0.96       254
+         24       0.62      0.14      0.23       495
+         25       0.62      0.28      0.38        65
+
+avg / total       0.72      0.45      0.53      7937
+
+time: 85.746225
+
+std:
+/Users/zhuqi/.virtualenvs/nlp/bin/python /Users/zhuqi/Desktop/大三下/DM/proj/data-Mining-Proj-2/src/classifier.py
+['paid death notices']
+Logistic Regression
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.99      0.98      0.98       614
+
+avg / total       1.00      1.00      1.00      4880
+
+time: 1.739496
+GaussianNB Naive Bayes
+             precision    recall  f1-score   support
+
+          0       0.98      0.96      0.97      4266
+          1       0.77      0.87      0.82       614
+
+avg / total       0.96      0.95      0.95      4880
+
+time: 0.065304
+SVM(SVC)
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.98      0.99      0.99       614
+
+avg / total       1.00      1.00      1.00      4880
+
+time: 30.048042
+Decision Tree
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.97      0.98      0.98       614
+
+avg / total       0.99      0.99      0.99      4880
+
+time: 8.185622
+MLP
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.99      0.99      0.99       614
+
+avg / total       1.00      1.00      1.00      4880
+
+time: 9.163605
+Ensemble bootstrap (Basic estimator: Decision Tree)
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.99      0.98      0.99       614
+
+avg / total       1.00      1.00      1.00      4880
+
+time: 39.704692
+Adaboost (Basic estimator: Decision Tree)
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.99      0.98      0.98       614
+
+avg / total       1.00      1.00      1.00      4880
+
+time: 28.644585
+Random Forest
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.99      0.98      0.98       614
+
+avg / total       1.00      1.00      1.00      4880
+
+time: 5.011206
+Precision: 0.970443 Recall: 0.962541 F1-measure: 0.966476 time: 1.397685
+
+
+not std:
+/Users/zhuqi/.virtualenvs/nlp/bin/python /Users/zhuqi/Desktop/大三下/DM/proj/data-Mining-Proj-2/src/classifier.py
+['paid death notices']
+Logistic Regression
+             precision    recall  f1-score   support
+
+          0       0.98      1.00      0.99      4266
+          1       1.00      0.88      0.94       614
+
+avg / total       0.99      0.98      0.98      4880
+
+time: 0.513099
+GaussianNB Naive Bayes
+             precision    recall  f1-score   support
+
+          0       0.98      0.96      0.97      4266
+          1       0.77      0.87      0.82       614
+
+avg / total       0.96      0.95      0.95      4880
+
+time: 0.066890
+SVM(SVC)
+             precision    recall  f1-score   support
+
+          0       0.94      1.00      0.97      4266
+          1       1.00      0.52      0.69       614
+
+avg / total       0.94      0.94      0.93      4880
+
+time: 57.899243
+Decision Tree
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.97      0.99      0.98       614
+
+avg / total       0.99      0.99      0.99      4880
+
+time: 7.742495
+MLP
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.99      0.98      0.99       614
+
+avg / total       1.00      1.00      1.00      4880
+
+time: 8.273493
+Ensemble bootstrap (Basic estimator: Decision Tree)
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.99      0.98      0.99       614
+
+avg / total       1.00      1.00      1.00      4880
+
+time: 39.127179
+Adaboost (Basic estimator: Decision Tree)
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.99      0.98      0.98       614
+
+avg / total       1.00      1.00      1.00      4880
+
+time: 29.633905
+Random Forest
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      4266
+          1       0.99      0.98      0.98       614
+
+avg / total       1.00      1.00      1.00      4880
+
+time: 4.907125
+Precision: 0.970443 Recall: 0.962541 F1-measure: 0.966476 time: 1.543967
+
+
+SVM(SVC)
+/Users/zhuqi/.virtualenvs/nlp/lib/python2.7/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision and F-score are ill-defined and being se
+t to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+          0       0.75      0.26      0.38       264
+          1       0.89      0.34      0.49       187
+          2       0.75      0.48      0.58       128
+          3       0.92      0.16      0.28       213
+          4       0.81      0.75      0.78       705
+          5       0.00      0.00      0.00        85
+          6       0.90      0.88      0.89       392
+          7       0.60      0.05      0.09        65
+          8       0.82      0.56      0.67      1064
+          9       0.75      0.46      0.57       213
+         10       0.86      0.70      0.77       508
+         11       0.70      0.04      0.08       347
+         12       0.97      0.31      0.48       235
+         13       1.00      0.10      0.17        42
+         14       0.00      0.00      0.00       129
+         15       0.79      0.60      0.68       348
+         16       1.00      0.01      0.02       102
+         17       0.98      0.99      0.99       614
+         18       0.00      0.00      0.00        65
+         19       0.82      0.56      0.67      1064
+         20       0.73      0.18      0.28       181
+         21       1.00      0.01      0.02       108
+         22       0.67      0.09      0.16        64
+         23       0.97      0.92      0.94       254
+         24       0.91      0.19      0.32       495
+         25       0.60      0.05      0.09        65
+
+avg / total       0.82      0.51      0.58      7937
+
+time: 969.403807
+
+MultinomialNB Naive Bayes
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.612629
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.359500
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.333141
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.241141
+Precision: 0.862069 Recall: 0.035461 F1-measure: 0.068120 time: 14.313684
+Precision: 1.000000 Recall: 0.011765 F1-measure: 0.023256 time: 14.400949
+Precision: 0.818182 Recall: 0.022959 F1-measure: 0.044665 time: 14.221463
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.604672
+Precision: 0.804878 Recall: 0.031015 F1-measure: 0.059729 time: 14.222216
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.498547
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.214172
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.298499
+Precision: 1.000000 Recall: 0.004255 F1-measure: 0.008475 time: 14.710080
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.925554
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.685993
+Precision: 0.923077 Recall: 0.034483 F1-measure: 0.066482 time: 14.662934
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.561628
+Precision: 0.998016 Recall: 0.819218 F1-measure: 0.899821 time: 14.944435
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.709220
+Precision: 0.804878 Recall: 0.031015 F1-measure: 0.059729 time: 14.983916
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.862539
+Precision: 1.000000 Recall: 0.018519 F1-measure: 0.036364 time: 14.682130
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 15.378788
+Precision: 0.800000 Recall: 0.015748 F1-measure: 0.030888 time: 14.961249
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 14.819773
+Precision: 0.000000 Recall: 0.000000 F1-measure: 0.000000 time: 15.406580
+
+0.3,10
+0.00737515867735
+0.0494101187584
+803.711534
+
+std:0.3,10
+0.00109289422512
+0.0236955948972
+182.974056
+
+0.05 50
+0.0947179106554
+0.20957384262
+578.142685
+
+0.05 10
+0.0987700641126
+0.220474007773
+582.687322
+
+dbscan 0.05 3
+0.100129072646
+0.219281274176
+549.742233
+
+0.01 3
+0.00504774098138
+0.0638022740513
+178.976446
+
+0.01 10
+0.0021081389086
+0.0319221117522
+172.847564
+
+0.1 10
+0.0793276928795
+0.207703318403
+834.160318
+
+kmeans random
+0.349197760321
+0.364660277116
+15.449097
+
+kmeans kmeans++
+0.28873233541
+0.335783709967
+11.771135
