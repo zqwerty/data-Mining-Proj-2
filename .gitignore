@@ -1,6 +1,7 @@
 data.p
 .idea
 .idea/*
+xgboost
 data_bagvec/*
 data_category/*
 data_dict/*
